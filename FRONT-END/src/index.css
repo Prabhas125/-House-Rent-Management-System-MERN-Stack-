@@ -1,0 +1,46 @@
+body {
+  background-color: #f7f8fa;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.property-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  height: 100%;
+}
+
+.property-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.property-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.status-badge-pending {
+  background-color: #ffc107;
+}
+.status-badge-approved {
+  background-color: #198754;
+}
+.status-badge-rejected {
+  background-color: #dc3545;
+}
+
+.dashboard-sidebar {
+  min-height: calc(100vh - 56px);
+  background-color: #212529;
+}
+
+.dashboard-sidebar .nav-link {
+  color: #adb5bd;
+}
+
+.dashboard-sidebar .nav-link.active {
+  color: #fff;
+  font-weight: 600;
+}
